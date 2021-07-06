@@ -10,10 +10,14 @@ import 'it.dart';
 import 'pt_br.dart';
 import 'tr.dart';
 import 'zh_cn.dart';
+import 'es.dart';
+import 'ca_es.dart';
 
 const supportedLocales = <String>{
   'az',
+  'ca-es',
   'de',
+  'es',
   'fr',
   'id',
   'it',
@@ -26,7 +30,9 @@ const supportedLocales = <String>{
 
 const localeMap = <String, FormValidatorLocale>{
   'az': LocaleAz(),
+  'ca-es': LocaleCaEs(),
   'de': LocaleDe(),
+  'es': LocaleEs(),
   'fr': LocaleFr(),
   'id': LocaleId(),
   'it': LocaleIt(),
